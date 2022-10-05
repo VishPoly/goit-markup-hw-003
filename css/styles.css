@@ -15,16 +15,6 @@ body {
     letter-spacing: 0.06em;
     font-style: normal;
 }
-/* points */
-ul {
-    list-style: none;
-}
-a{
-    text-decoration: none;
-}
-address{
-    font-style: normal;
-}
 
 /* header */
 .logo {
