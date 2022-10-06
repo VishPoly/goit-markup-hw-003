@@ -16,7 +16,23 @@ body {
     font-style: normal;
 }
 
+.container {
+    width: 1200px;
+    padding-left: 215px;
+    padding-right: 215px;
+}
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 /* header */
+/* border: 1px solid #ECECEC; */
+.header{
+    padding-bottom: 25px;
+    padding-top: 24px;
+    border-bottom: 1px solid #ECECEC;
+}
 .logo {
     color: var(--accent-color);
     font-family: Raleway, cursive;
@@ -65,9 +81,17 @@ body {
 }
 
 /* hero */
-.hero-title {
-    color: var(--background-color);
+.hero {
+    padding: 200px 200px;
+    text-align: center;
     background-color: var(--background-hero);
+}
+
+.hero-title {
+    margin-top: 0px;
+    margin-bottom: 30px; 
+
+    color: var(--background-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -77,7 +101,23 @@ body {
 }
 
 /* section */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 .section-title {
+    margin-bottom: 10px;
+
     color: var(--primary-text-color);
     font-weight: 700;
     font-size: 14px;
@@ -85,6 +125,8 @@ body {
     letter-spacing: 0.03em;
 }
 .section-titles {
+    margin-bottom: 50px;
+
     color: var(--primary-text-color);
     font-weight: 700;
     font-size: 36px;
@@ -99,7 +141,13 @@ body {
     line-height: 1.71;
 }
 
+.section-teams {
+    margin-bottom: 50px;
+}
+
 .section-team {
+    margin-bottom: 10px;
+
     color: var(--primary-text-color) ;
     font-weight: 500;
     font-size: 16px;
@@ -114,6 +162,8 @@ body {
 }
 
 .section-caption {
+    margin-bottom: 10px;
+
     color: var(--primary-text-color);
     font-weight: 700;
     font-size: 18px;
@@ -146,8 +196,17 @@ body {
     color: var(--background-button);
 }
 
+/* gallery */
+.gallery{
+    border-bottom: 1px solid #EEEEEE;
+    width: 370px;
+}
+
 /* footer */
 .footer {
+    padding-bottom: 60px;
+    padding-top: 60px;
+
     background-color: var(--background-hero);
 }
 .logo-title {
