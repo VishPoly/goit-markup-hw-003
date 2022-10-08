@@ -13,75 +13,97 @@
 </head>
 
 <body>
-    <header class="header container"> <!--header-->
-                <nav>
-                    <a href="#" class="logo">Web<span class="studio">Studio</span></a>
-                    <ul class="site-nav list">
-                        <li><a href="./index.html" class="link">Студія</a></li>
-                        <li><a href="./portfolio.html" class="link current">Портфоліо</a></li>
-                        <li><a href="" class="link">Контакти</a></li>
+    <header class="header"> <!--header-->
+                <div class="container main-nav">
+                    <nav class="main-nav">
+                        <a href="#" class="logo">Web<span class="studio">Studio</span></a>
+                        <ul class="site-nav flex list">
+                            <li class="item"><a href="./index.html" class="link">Студія</a></li>
+                            <li class="item"><a href="./portfolio.html" class="link current">Портфоліо</a></li>
+                            <li class="item"><a href="" class="link">Контакти</a></li>
+                        </ul>
+                    </nav>
+                    <ul class="contacts auth-nav">
+                        <li class="item"><a href="mailto:info@devstudio.com" class="contact">info@devstudio.com</a></li>
+                        <li class="item"><a href="tel:+380961111111" class="contact">+38 096 111 11 11</a></li>
                     </ul>
-                </nav>
-                <ul class="contacts">
-                    <li><a href="mailto:info@devstudio.com" class="contact">info@devstudio.com</a></li>
-                    <li><a href="tel:+380961111111" class="contact">+38 096 111 11 11</a></li>
-                </ul>
+                </div>
     </header>
     <section class="container"> <!--section-->
-        <div class="container">
+        <div class="section">
                 <h1 class="visually-hidden">section</h1>
-                <ul class="auth-nav list">
-                    <li><button type="button" class="button-primary">Усі</button></li>
-                    <li><button type="button" class="button-primary">Веб-сайти</button></li>
-                    <li><button type="button" class="button-primary">Додатки</button></li>
-                    <li><button type="button" class="button-primary">Дизайн</button></li>
-                    <li><button type="button" class="button-primary">Маркетинг</button></li>
-                </ul>
-                <ul>
+                <div class="marg-button">
+                    <ul class="all-button">
+                        <li button-item><button type="button" class="button-primary">Усі</button></li>
+                        <li button-item><button type="button" class="button-primary">Веб-сайти</button></li>
+                        <li button-item><button type="button" class="button-primary">Додатки</button></li>
+                        <li button-item><button type="button" class="button-primary">Дизайн</button></li>
+                        <li button-item><button type="button" class="button-primary">Маркетинг</button></li>
+                    </ul>
+                </div>
+                <ul class="project">
                     <li class="gallery">
                         <img src="./imeges/img2/img(1).jpg" width="370" alt="web-site">
-                        <h2 class="section-caption">Технокряк</h2>
-                        <p class="section-dest">Веб-сайт</p>
+                        <div class="card">
+                            <h2 class="section-caption">Технокряк</h2>
+                            <p class="section-dest">Веб-сайт</p>
+                        </div>
                     </li>
                     <li class="gallery">
                         <img src="./imeges/img2/img(2).jpg" width="370" alt="styling">
-                        <h2 class="section-caption">Постер New Orlean vs Golden Star</h2>
-                        <p class="section-dest">Дизайн</p>
+                        <div class="card">
+                            <h2 class="section-caption">Постер New Orlean vs Golden Star</h2>
+                            <p class="section-dest">Дизайн</p>
+                        </div>
                     </li>
                     <li class="gallery">
                         <img src="./imeges/img2/img(3).jpg" width="370" alt="Addition">
-                        <h2 class="section-caption">Ресторан Seafood</h2>
-                        <p class="section-dest">Додаток</p>
+                        <dic class="card">
+                            <h2 class="section-caption">Ресторан Seafood</h2>
+                            <p class="section-dest">Додаток</p>
+                        </dic>
                     </li>
                     <li class="gallery">
                         <img src="./imeges/img2/img(4).jpg" width="370" alt="Marketing">
-                        <h2 class="section-caption">Проєкт Prime</h2>
-                        <p class="section-dest">Маркетинг</p>
+                        <div class="card">
+                            <h2 class="section-caption">Проєкт Prime</h2>
+                            <p class="section-dest">Маркетинг</p>
+                        </div>
                     </li>
                     <li class="gallery">
                         <img src="./imeges/img2/img(5).jpg" width="370" alt="Boxes">
-                        <h2 class="section-caption">Проєкт Boxes</h2>
-                        <p class="section-dest">Додаток</p>
+                        <div class="card">
+                            <h2 class="section-caption">Проєкт Boxes</h2>
+                            <p class="section-dest">Додаток</p>
+                        </div>
                     </li>
                     <li class="gallery">
                         <img src="./imeges/img2/img(6).jpg" width="370" alt="web-site2">
-                        <h2 class="section-caption">Inspiration has no Borders</h2>
-                        <p class="section-dest">Веб-сайт</p>
+                        <div class="card">
+                            <h2 class="section-caption">Inspiration has no Borders</h2>
+                            <p class="section-dest">Веб-сайт</p>
+                        </div>
                     </li>
                     <li class="gallery">
                         <img src="./imeges/img2/img(7).jpg" width="370" alt="Addition2">
-                        <h2 class="section-caption">Видання Limited Edition</h2>
-                        <p class="section-dest">Дизайн</p>
+                        <div class="card">
+                            <h2 class="section-caption">Видання Limited Edition</h2>
+                            <p class="section-dest">Дизайн</p>
+                        </div>
                     </li>
                     <li class="gallery">
                         <img src="./imeges/img2/img(8).jpg" width="370" alt="Marketing2">
-                        <h2 class="section-caption">Проєкт LAB</h2>
-                        <p class="section-dest">Маркетинг</p>
+                        <div class="card">
+                            <h2 class="section-caption">Проєкт LAB</h2>
+                            <p class="section-dest">Маркетинг</p>
+                        </div>
                     </li>
                     <li class="gallery">
                         <img src="./imeges/img2/img(9).jpg" width="370" alt="Addition3">
-                        <h2 class="section-caption">Growing Business</h2>
-                        <p class="section-dest">Додаток</p>
+                        <div class="card">
+                            <h2 class="section-caption">Growing Business</h2>
+                            <p class="section-dest">Додаток</p>
+                        </div>
                     </li>
                 </ul>
         </div>
