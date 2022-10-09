@@ -20,6 +20,7 @@ body {
     width: 1200px;
     margin-left: auto;
     margin-right: auto; 
+    padding: 0 15px;
 }
 .section{
     padding-top: 94px;
@@ -195,6 +196,9 @@ body {
 .section-photo-img:not(:last-child) {
     margin-right: 30px;
 }
+.studio-photo {
+    padding-bottom: 94px;
+}
 
 .team-color {
     background-color: #F5F4FA;
@@ -325,7 +329,7 @@ body {
 .project {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 30px;
+    margin-bottom: -30px;
 
 }
 .gallery {
@@ -338,7 +342,7 @@ body {
     margin-right: 30px;
 }
 .card {
-    padding: 20px 20px;
+    padding: 20px 24px;
     text-align: start;
 }
 .section-caption {
@@ -367,10 +371,7 @@ body {
     line-height: 1.2;
     margin-bottom: 9px;
 }
-.navigation{
-    margin-bottom: 9px;
-}
-.item {
+.footer-navig{
     margin-bottom: 9px;
 }
 .studio-title{
