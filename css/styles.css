@@ -42,6 +42,7 @@ body {
     line-height: 1.19;
     letter-spacing: 0.03em;
 }
+
 .studio {
     color: var(--title-text-color);
     font-family: Raleway, cursive;
@@ -190,7 +191,7 @@ body {
     flex-wrap: wrap;
 }
 .section-photo-img{
-    width: calc((100% - 90px) / 3);
+    width: calc((100% - 60px) / 3);
 }
 
 .section-photo-img:not(:last-child) {
@@ -377,7 +378,7 @@ body {
 /* .logo-title{
     margin-bottom: 20px;
 } */
-.site-nav{
+.site-nav.items{
     margin-top: 20px;
 }
 
